@@ -16,6 +16,7 @@ form.addEventListener('submit', function (e) {
                 resultText.append(valueConverted + " " + sourceCountry.value);
             } else {
                 console.log("Fetching Failed! Check API Dashboard.");
+                resultText.append("ERROR!");
             };
         })
 })

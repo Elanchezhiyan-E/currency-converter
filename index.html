@@ -6,45 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <form id="form">
-        <label for="amount">Value</label>
-        <input type="text" id="amount">
-        <label for="sourceValue">Source</label>
-        <select name="Source" id="sourceValue">
-            <option value="INR">India</option>
-            <option value="USD">United States</option>
-            <option value="CNY">China</option>
-            <option value="JPY">Japan</option>
-            <option value="BRL">Brazil</option>
-            <option value="CAD">Canada</option>
-            <option value="RUB">Russia</option>
-            <option value="AUD">Australia</option>
-            <option value="IDR">Indonesia</option>
-            <option value="ANG">Netherlands</option>
-            <option value="SAR">Saudi Arabia</option>
-            <option value="TMT">Turkmenistan</option>
-        </select>
-        <label for="destinationValue">Destination</label>
-        <select name="Destination" id="destinationValue">
-            <option value="USD">United States</option>
-            <option value="INR">India</option>
-            <option value="CNY">China</option>
-            <option value="JPY">Japan</option>
-            <option value="BRL">Brazil</option>
-            <option value="CAD">Canada</option>
-            <option value="RUB">Russia</option>
-            <option value="AUD">Australia</option>
-            <option value="IDR">Indonesia</option>
-            <option value="ANG">Netherlands</option>
-            <option value="SAR">Saudi Arabia</option>
-            <option value="TMT">Turkmenistan</option>
-        </select>
-        <input type="submit">
-    </form>
-    <p id="resultText"></p>
+    <main>
+        <form id="form">
+            <label for="amount">Value</label>
+            <input type="text" id="amount">
+            <label for="sourceValue">Source</label>
+            <select name="Source" id="sourceValue">
+                <option value="INR">India</option>
+                <option value="USD">United States</option>
+                <option value="CNY">China</option>
+                <option value="JPY">Japan</option>
+                <option value="BRL">Brazil</option>
+                <option value="CAD">Canada</option>
+                <option value="RUB">Russia</option>
+                <option value="AUD">Australia</option>
+                <option value="IDR">Indonesia</option>
+                <option value="ANG">Netherlands</option>
+                <option value="SAR">Saudi Arabia</option>
+                <option value="TMT">Turkmenistan</option>
+            </select>
+            <label for="destinationValue">Destination</label>
+            <select name="Destination" id="destinationValue">
+                <option value="USD">United States</option>
+                <option value="INR">India</option>
+                <option value="CNY">China</option>
+                <option value="JPY">Japan</option>
+                <option value="BRL">Brazil</option>
+                <option value="CAD">Canada</option>
+                <option value="RUB">Russia</option>
+                <option value="AUD">Australia</option>
+                <option value="IDR">Indonesia</option>
+                <option value="ANG">Netherlands</option>
+                <option value="SAR">Saudi Arabia</option>
+                <option value="TMT">Turkmenistan</option>
+            </select>
+            <input type="submit">
+        </form>
+        <p id="resultText"></p>
+    </main>
 </body>
 
 </html>
